@@ -1,6 +1,7 @@
 package info.garagesalesapp.domain;
 
-import com.google.gson.*;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
 /**
  * Created by jamesharmon on 5/1/17.
@@ -54,5 +55,6 @@ public class SaleEvent {
         Gson gson = new GsonBuilder().create();
         String json = gson.toJson(saleEvent);
         System.out.println(json);
+
     }
 }
