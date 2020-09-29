@@ -18,7 +18,7 @@ dependencies {
 
 apply plugin: 'project-report'
 
-/* demo custom task */
+/* demo custom task
 task showDate {
     // make it rely on build, without it, it is a separate task
     dependsOn build
@@ -31,4 +31,19 @@ task showDate {
         println ""
     }
 }
+*/
 
+class ShowDate extends DefaultTask {  // demo extend task
+    String dateMessage = "Date is: "
+
+    @TaskAction
+    void showDate() { // method name can be anything
+        println dateMessage + new Date()
+    }
+}
+
+task showDate(type: ShowDate)
+
+task customShowDate(type: ShowDate) { // demo override custom task
+    dateMessage = "Custom time is: "
+}
