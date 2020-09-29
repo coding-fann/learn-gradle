@@ -852,7 +852,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.gradle-lab [projectReport]">
+  <component name="RunManager" selected="Gradle.gradle-lab [showDate]">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -887,7 +887,7 @@
         <option name="vmOptions" />
       </ExternalSystemSettings>
     </configuration>
-    <configuration name="gradle-lab [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="gradle-lab [compileJava]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -898,7 +898,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
+            <option value="compileJava" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -921,18 +921,37 @@
         <option name="vmOptions" />
       </ExternalSystemSettings>
     </configuration>
+    <configuration name="gradle-lab [showDate]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="showDate" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+    </configuration>
     <list>
-      <item itemvalue="Gradle.gradle-lab [build]" />
       <item itemvalue="Gradle.gradle-lab [assemble]" />
       <item itemvalue="Application.SaleEvent" />
       <item itemvalue="Gradle.gradle-lab [projectReport]" />
+      <item itemvalue="Gradle.gradle-lab [compileJava]" />
+      <item itemvalue="Gradle.gradle-lab [showDate]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.gradle-lab [showDate]" />
+        <item itemvalue="Gradle.gradle-lab [compileJava]" />
         <item itemvalue="Gradle.gradle-lab [projectReport]" />
         <item itemvalue="Application.SaleEvent" />
         <item itemvalue="Gradle.gradle-lab [assemble]" />
-        <item itemvalue="Gradle.gradle-lab [build]" />
       </list>
     </recent_temporary>
   </component>

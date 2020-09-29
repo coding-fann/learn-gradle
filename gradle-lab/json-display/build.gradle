@@ -17,3 +17,18 @@ dependencies {
 }
 
 apply plugin: 'project-report'
+
+/* demo custom task */
+task showDate {
+    // make it rely on build, without it, it is a separate task
+    dependsOn build
+    description = 'show current date'
+    // define the user group name, default it goes to 'other' group
+    group = 'my tasks'
+    doLast {
+        println ""
+        println 'current date: ' + new Date()
+        println ""
+    }
+}
+
