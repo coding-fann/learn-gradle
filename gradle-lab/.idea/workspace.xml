@@ -109,8 +109,8 @@
       <file leaf-file-name="SaleEvent.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/info/garagesalesapp/domain/SaleEvent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+            <state relative-caret-position="460">
+              <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
               <folding>
                 <element signature="e#587#588#0" expanded="true" />
                 <element signature="e#614#615#0" expanded="true" />
@@ -852,7 +852,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SaleEvent">
+  <component name="RunManager" selected="Gradle.gradle-lab [projectReport]">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -904,13 +904,32 @@
         <option name="vmOptions" />
       </ExternalSystemSettings>
     </configuration>
+    <configuration name="gradle-lab [projectReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="projectReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+    </configuration>
     <list>
       <item itemvalue="Gradle.gradle-lab [build]" />
       <item itemvalue="Gradle.gradle-lab [assemble]" />
       <item itemvalue="Application.SaleEvent" />
+      <item itemvalue="Gradle.gradle-lab [projectReport]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.gradle-lab [projectReport]" />
         <item itemvalue="Application.SaleEvent" />
         <item itemvalue="Gradle.gradle-lab [assemble]" />
         <item itemvalue="Gradle.gradle-lab [build]" />
@@ -927,12 +946,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601287202315</updated>
-      <workItem from="1601287205213" duration="2891000" />
+      <workItem from="1601287205213" duration="2895000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2891000" />
+    <option name="totallyTimeSpent" value="2895000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="25" width="1926" height="1058" extended-state="0" />
@@ -1013,8 +1032,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/info/garagesalesapp/domain/SaleEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+        <state relative-caret-position="460">
+          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
           <folding>
             <element signature="e#587#588#0" expanded="true" />
             <element signature="e#614#615#0" expanded="true" />
