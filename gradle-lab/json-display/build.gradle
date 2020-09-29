@@ -33,6 +33,7 @@ task showDate {
 }
 */
 
+/* Demo customize task
 class ShowDate extends DefaultTask {  // demo extend task
     String dateMessage = "Date is: "
 
@@ -47,3 +48,4 @@ task showDate(type: ShowDate)
 task customShowDate(type: ShowDate) { // demo override custom task
     dateMessage = "Custom time is: "
 }
+*/
